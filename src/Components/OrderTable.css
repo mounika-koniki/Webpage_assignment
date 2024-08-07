@@ -1,0 +1,41 @@
+.order-table {
+    background-color: #29293d;;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin-left: 1.5rem;
+    overflow-x:auto;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    
+  }
+  
+  thead {
+    background-color:#29293d;
+  }
+  
+  .tr {
+    border-bottom: 1px solid #ddd;
+    font-size: small;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #29293d;
+  }
+.status{
+    background-color: rgb(68, 98, 68);
+    border-radius: 1.5rem;
+    border-width: 1rem;
+}

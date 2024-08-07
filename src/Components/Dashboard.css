@@ -1,0 +1,51 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+    height: 100vh;
+    overflow: auto;
+  }
+  .heading{
+    text-align: left;
+    
+  }
+  .Profit{
+    width: 30rem;
+    
+  }
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+
+  }
+  
+  .activity {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .orders-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.secondnav{
+  margin-left: -77rem;
+  background-position-y: left;
+  background-color: (53, 50, 50);
+}
+
+  @media (min-width: 768px) {
+    .orders-feedback {
+      flex-direction: row;
+    }
+  }
+
+  

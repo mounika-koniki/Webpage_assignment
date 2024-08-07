@@ -1,0 +1,176 @@
+.Activity{
+   display: inline-block;
+  justify-content: left;
+  margin-left: 10rem;
+  vertical-align: middle;
+  justify-content: space-evenly;
+  gap: 20px;
+  
+    
+}
+
+.drop{
+    text-align: right;
+    color: white;
+    
+}
+#dropdown-basic{
+background-color: gray;
+border-radius: 3rem;
+}
+.container {
+    background-color: #29293d;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin-left: 3rem;
+    text-align: left;
+  }
+  
+  .activity {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .bar-graph {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: #4caf50;
+    position: relative;
+  }
+  
+  .bar span {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon span {
+    font-size: 24px;
+  }
+  
+  .icon p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .bar-graph {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bar {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .icon {
+      margin-bottom: 10px;
+    }
+  }
+  
+
+.menubar{
+    display: inline-block;
+    justify-content: right;
+    margin-right: 10rem;
+  vertical-align: middle;
+   
+}
+
+
+/* .Menubar {
+    float: right;
+    display: inline-block;
+    background-color: #29293d;
+    display: flex;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin-left: 3rem;
+    text-align: center;
+    max-width: 400px;
+  } */
+  
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff; */
+
+/* .menu-container {
+     display: flex; 
+     flex-direction: column; 
+     flex: 1;
+     width: 100%;
+    max-width: 300px; 
+    margin: 0 auto; 
+} 
+
+.menu-item {
+     display: flex; 
+     align-items: center; 
+     justify-content: space-between; 
+     padding: 10px 20px; 
+     border: 1px solid #29293d;
+     border-radius: 8px; 
+     margin: 10px 0; 
+     background-color: #29293d; 
+     cursor: pointer; 
+     transition: background-color 0.3s ease; 
+    } 
+    .menu-item:hover { 
+        background-color: #29293d; 
+    }
+ .icon { 
+    width: 24px; 
+    height: 24px; 
+    background-size: contain; 
+    margin-right: 10px; 
+} .goals-icon { 
+    background-image: url('/path-to-goals-icon.png'); 
+} 
+.dishes-icon { 
+    background-image: url('/path-to-dishes-icon.png'); 
+} 
+.menus-icon { 
+    background-image: url('/path-to-menus-icon.png'); 
+} 
+.arrow { width: 10px; height: 10px; background-image: url('/path-to-arrow-icon.png'); background-size: contain; }
+
+.activity{
+    flex: 1;
+} */

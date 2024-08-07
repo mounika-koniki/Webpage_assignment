@@ -1,0 +1,33 @@
+.stats-card {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 14px;
+  }
+  
+  .value {
+    font-size: 24px;
+  }
+  
+  .trend {
+    font-size: 14px;
+    color: #4caf50;
+  }

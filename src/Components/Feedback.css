@@ -1,0 +1,36 @@
+.feedback {
+    background-color: #29293d;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin-left: 3rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .feedback-card {
+    background-color: #29293d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .customer {
+    font-weight: bold;
+
+  }
+  
+  .rating {
+    color: #ffeb3b;
+  }
+  
+  .comment {
+    margin-top: 5px; 
+    font-size: small;
+  }
+
+  .hr{
+    margin-bottom: -1rem;
+  }
